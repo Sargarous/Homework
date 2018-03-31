@@ -17,7 +17,7 @@ public class Main {
 
         for (int i = 0; i < alphabet.length; i++) {
             char x = alphabet[i];
-            for (int j = 0; j < s.length() j++) {
+            for (int j = 0; j < s.length(); j++) {
                 if (x == s.charAt(j)) {
                     alpcount[i]++;
                 }
